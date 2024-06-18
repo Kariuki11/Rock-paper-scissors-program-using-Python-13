@@ -35,9 +35,9 @@ h1{
 .scoreDisplay{
     font-size: 2rem;
 }
-.greenText{
+.greenText #playerScoreDisplay{
     color: hsl(120, 100%, 50%);
 }
-.redText{
+.redText #computerScoreDisplay{
     color: hsl(0, 100%, 50%);
 }
