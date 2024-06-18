@@ -4,7 +4,7 @@ const choices = ["rock", "paper", "scissors"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
-const playerScoreDisplay = 
+const playerScoreDisplay = document.getElementById("playerScoreDisplay");
 
 function playGame(playerChoice){
     const computerChoice = choices[Math.floor(Math.random() * 3)];
