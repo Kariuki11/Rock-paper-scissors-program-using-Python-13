@@ -30,4 +30,13 @@ function playGame(playerChoice){
     playerDisplay.textContent = `PLAYER: ${playerChoice}`;
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
     resultDisplay.textContent = `RESULT: ${result}`
+
+    switch(result){
+        case "YOU WIN!":
+            resultDisplay.classList.add("greenText");
+            break;
+            case "YOU LOSE!":
+                resultDisplay.classList.add("redText");
+                break;
+    }
 }
